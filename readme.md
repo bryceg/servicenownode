@@ -18,7 +18,7 @@ snAuth.auth()
 
 
 //Query ServiceNow
-var client = new ServiceNowQuery('table_name', snAuth.getAuth());
+var client = new ServiceNowQuery('table_name', snAuth);
 client
     .and('field', 'some_value')
     .execute()
