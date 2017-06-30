@@ -113,10 +113,10 @@ export class ServiceNowQuery {
             })
     }
 
-    public async getEntity<T>(table: string, sys_id: string): Promise<T> {
+    public async getEntity<T>(sys_id: string): Promise<T> {
         let token = await this.auth.auth();
 
-        let uri = `${this.uri}/api/now/table/${table}/${sys_id}?sysparm_display_value=all`;
+        let uri = `${this.uri}/api/now/table/${this.table}/${sys_id}?sysparm_display_value=all`;
 
         return RequestUtil.get(uri, {auth: {bearer: token.access_token}})
             .then(response => {
