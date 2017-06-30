@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://avanade-psg.visualstudio.com/PSG/_git/ServiceNow.NodeJS"
   },
-  "author": "Avanade Platform Software Group",
+  "author": "Bryce Godfrey",
   "license": "ISC",
   "devDependencies": {
     "@types/request": "0.0.45",
