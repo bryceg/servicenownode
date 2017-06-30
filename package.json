@@ -1,12 +1,12 @@
 {
   "name": "servicenow-nodejs",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ServiceNow NodeJS client for table api",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://avanade-psg.visualstudio.com/PSG/_git/ServiceNow.NodeJS"
+    "url": "https://github.com/bryceg/servicenownode"
   },
   "author": "Bryce Godfrey",
   "license": "ISC",
