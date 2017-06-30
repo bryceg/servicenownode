@@ -1,0 +1,21 @@
+{
+  "name": "servicenow-nodejs",
+  "version": "0.1.0",
+  "description": "ServiceNow NodeJS client for table api",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://avanade-psg.visualstudio.com/PSG/_git/ServiceNow.NodeJS"
+  },
+  "author": "Avanade Platform Software Group",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/request": "0.0.45",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  }
+}
